@@ -4,6 +4,6 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3308/db_api_v1_evento
-    username: root
-    password: 147896325878910_Paz
+    username: {{username_db}}
+    password: {{password_db}}
     driver-class-name: com.mysql.cj.jdbc.Driver
